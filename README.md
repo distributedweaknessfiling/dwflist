@@ -1,12 +1,15 @@
 # dwflist
-The DWF CVE ID dataset
 
-To request a DWF CVE ID please go to https://iwantacve.org/
+The DWF CVE ID dataset
 
 For questions, comments, or ideads please use the DWF-Workflow repo
 https://github.com/distributedweaknessfiling/DWF-workflow
 
-Issues opened by humans in this repo will be ignored. If you need an ID, use the form at https://iwantacve.org
+Issues opened by humans in this repo will not be processed by the bot. Please use the form. We are also working on an API and other methods to request DWF CVE IDs.
+
+# How to request a DWF CVE ID
+
+To request a DWF CVE ID please go to https://iwantacve.org/
 
 # What gets a DWF CVE ID?
 
