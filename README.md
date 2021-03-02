@@ -5,7 +5,20 @@ The DWF CVE ID dataset
 For questions, comments, or ideads please use the DWF-Workflow repo
 https://github.com/distributedweaknessfiling/DWF-workflow
 
-Issues opened by humans in this repo will not be processed by the bot. Please use the form. We are also working on an API and other methods to request DWF CVE IDs.
+Issues opened by humans in this repo will not be processed by the bot. Please use the form to request DWF CVE IDs. We are also working on an API and other methods to request DWF CVE IDs.
+
+# Where to file issues
+
+## Tooling discussion
+Please file issues about the tooling in the dwf-request repo: https://github.com/distributedweaknessfiling/dwf-request/issues
+
+## Contesting/disputing a DWF CVE ID
+
+If you think a DWF CVE ID contains an error or isn't valid please file an issue in the dwflist repo: https://github.com/distributedweaknessfiling/dwflist/issues
+
+## General discussion of DWF CVE IDs and the project
+
+If you want to discuss workflow or the DWF CVE ID project in general please use the dwf-workflow repo: https://github.com/distributedweaknessfiling/dwf-workflow/issues
 
 # How to request a DWF CVE ID
 
