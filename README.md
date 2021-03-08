@@ -2,7 +2,7 @@
 
 DWF is not affiliated with MITRE. The purpose of DWF is to curate a community around security identifiers.
 
-DWF IDs take the form of CAN or CVE, then a 4 digit year YYYY, then an integer identifier XXXXXXX. The integers start at 1000000, anything below one millino is a MITRE CVE ID. Anything above one million is a DWF ID. So for example CVE-2021-1000000. Read below to understand the difference between CAN and CVE.
+DWF IDs take the form of CAN or CVE, then a 4 digit year YYYY, then an integer identifier XXXXXXX. The integers start at 1000000, anything below one million is a MITRE CVE ID. Anything above one million is a DWF ID. So for example CVE-2021-1000000. Read below to understand the difference between CAN and CVE.
 
 # dwflist
 
