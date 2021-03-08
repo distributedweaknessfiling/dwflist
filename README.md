@@ -1,6 +1,6 @@
 # About DWF
 
-DWF is not approved of, by, or affiliated with MITRE. DWF is community project to assign security identifiers.
+DWF is not approved of, by, or affiliated with MITRE. DWF is community project to assign security identifiers. We would love it if you joined us!
 
 DWF IDs take the form of CAN or CVE, then a 4 digit year YYYY, then an integer identifier XXXXXXX. The integers start at 1000000, anything below one million is a MITRE CVE ID. Anything above one million is a DWF ID. So for example CVE-2021-1000000. Read below to understand the difference between CAN and CVE.
 
