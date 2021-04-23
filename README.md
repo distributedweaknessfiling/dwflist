@@ -13,6 +13,10 @@ https://github.com/distributedweaknessfiling/DWF-workflow
 
 Issues opened by humans in this repo will not be processed by the bot. Please use the form to request DWF Identifiers. We are also working on an API and other methods to request DWF Identifiers.
 
+# dwflist JSON
+
+The DWF Identifiers dataset is available as JSON files via https://json.distributedweaknessfiling.org/CVE-YEAR-INTEGER which will redirect you to the current file in GitHub, raw format, for easy parsing.
+
 # Where to file issues
 
 ## Tooling discussion
