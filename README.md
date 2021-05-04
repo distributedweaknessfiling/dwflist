@@ -24,7 +24,11 @@ Please file issues about the tooling in the dwf-request repo: https://github.com
 
 ## Contesting/disputing a DWF Identifiers
 
-If you think a DWF Identifier contains an error or isn't valid please file an issue in the dwflist repo: https://github.com/distributedweaknessfiling/dwflist/issues
+If you think a DWF Identifier contains an error or isn't valid please file an issue in the dwflist repo: https://github.com/distributedweaknessfiling/dwflist/issues against the file(s) containing the CVE you wish to contest.
+
+## Adding details or discussing a DWF Identifiers
+
+If you think a DWF Identifier could use updated information or simply want to discuss the identifier in question please file an issue in the dwflist repo: https://github.com/distributedweaknessfiling/dwflist/issues against the file(s) containing the CVE you wish to contest.
 
 ## General discussion of DWF Identifiers and the project
 
