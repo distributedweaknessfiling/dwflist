@@ -28,7 +28,17 @@ If you think a DWF Identifier contains an error or isn't valid please file an is
 
 ## Adding details or discussing a DWF Identifiers
 
-If you think a DWF Identifier could use updated information or simply want to discuss the identifier in question please file an issue in the dwflist repo: https://github.com/distributedweaknessfiling/dwflist/issues against the file(s) containing the CVE you wish to contest.
+If you think a DWF Identifier could use updated information or simply want to discuss the identifier in question please file an issue in the dwflist repo: https://github.com/distributedweaknessfiling/dwflist/issues please mention the CVE file you are discussing in the title:
+
+```
+CVE-2021-1234567 needs updated description to reflect blah blah 
+```
+
+If you need to discuss multiple CVE files please list the CBE identifiers in numerial order:
+
+```
+CVE-2021-1234567 CVE-2021-1888888 need merging because they are a duplicate
+```
 
 ## General discussion of DWF Identifiers and the project
 
