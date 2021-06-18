@@ -2,7 +2,7 @@
 
 DWF is not approved of, by, or affiliated with MITRE. DWF is community project to assign security identifiers that are widely used and compatible with existing systems. We would love it if you joined us!
 
-DWF Identifiers generally take the form of a CAN compatible Identifier or CVE compatible Identifier, then a 4 digit year YYYY, then an integer identifier XXXXXXX. The integers start at 1000000. Read below to understand the difference between the way the DWF uses CAN compatible Identifiers and CVE compatible Identifiers.
+The DWF Identifiers in this repo generally take the form of a CVE compatible Identifier, then a 4 digit year YYYY, then an integer identifier XXXXXXX. The integers start at 1000000. Read below to understand the difference between the way the DWF uses CAN compatible Identifiers and CVE compatible Identifiers.
 
 # dwflist
 
@@ -24,20 +24,20 @@ Please file issues about the tooling in the dwf-request repo: https://github.com
 
 ## Contesting/disputing a DWF Identifiers
 
-If you think a DWF Identifier contains an error or isn't valid please file an issue in the dwflist repo: https://github.com/distributedweaknessfiling/dwflist/issues against the file(s) containing the CVE you wish to contest.
+If you think a DWF Identifier contains an error or isn't valid please file an issue in the dwflist repo: https://github.com/distributedweaknessfiling/dwflist/issues against the file(s) containing the issue you wish to contest.
 
 ## Adding details or discussing a DWF Identifiers
 
-If you think a DWF Identifier could use updated information or simply want to discuss the identifier in question please file an issue in the dwflist repo: https://github.com/distributedweaknessfiling/dwflist/issues please mention the CVE file you are discussing in the title:
+If you think a DWF Identifier could use updated information or simply want to discuss the identifier in question please file an issue in the dwflist repo: https://github.com/distributedweaknessfiling/dwflist/issues please mention the file you are discussing in the title:
 
 ```
-CVE-2021-1234567 needs updated description to reflect blah blah 
+CVE-2021-1234567.json needs updated description to reflect blah blah 
 ```
 
-If you need to discuss multiple CVE files please list the CBE identifiers in numerial order:
+If you need to discuss multiple files please list the identifiers in numerial order:
 
 ```
-CVE-2021-1234567 CVE-2021-1888888 need merging because they are a duplicate
+CVE-2021-1234567.json CVE-2021-1888888.json need merging because they are a duplicate
 ```
 
 ## General discussion of DWF Identifiers and the project
