@@ -8,7 +8,7 @@ The DWF Identifiers in this repo generally take the form of a CVE compatible Ide
 
 The DWF Identifiers dataset
 
-For questions, comments, or ideads please use the DWF-Workflow repo
+For questions, comments, or ideas please use the DWF-Workflow repo
 https://github.com/distributedweaknessfiling/DWF-workflow
 
 Issues opened by humans in this repo will not be processed by the bot. Please use the form to request DWF Identifiers. We are also working on an API and other methods to request DWF Identifiers.
@@ -56,7 +56,7 @@ A 100 gigabyte file that when loaded into an image editing program results in a 
 
 ## Local program crashes
 
-If a file crashes a locally executed program this is generally not DWF Identifier worthy, unless it completely crashes a program that is commonly handling other data, files or tasks causing a denial of service effect that is noticeable to the user. If the file simply cannot be loaded properly and no other real effect occurs than the simple answer is "it's a broken file, it causes no problem, it just can't be loaded, to bad."
+If a file crashes a locally executed program this is generally not DWF Identifier worthy, unless it completely crashes a program that is commonly handling other data, files or tasks causing a denial of service effect that is noticeable to the user. If the file simply cannot be loaded properly and no other real effect occurs than the simple answer is "it's a broken file, it causes no problem, it just can't be loaded, too bad."
 
 ## Fuzzer/Fuzzing results
 
