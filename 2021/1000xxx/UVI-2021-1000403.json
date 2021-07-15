@@ -1,0 +1,118 @@
+{
+  "dwf": {
+    "vendor_name": "Linux",
+    "product_name": "Kernel",
+    "product_version": "versions from v5.10.30 to before v5.10.37",
+    "vulnerability_type": "unspecified",
+    "affected_component": "unspecified",
+    "attack_vector": "unspecified",
+    "impact": "unspecified",
+    "credit": "",
+    "references": [
+      "https://git.kernel.org/pub/scm/linux/kernel/git/stable/linux.git/commit/?id=6fb003e5ae18d8cda4c8a1175d9dd8db12bec049",
+      "https://git.kernel.org/pub/scm/linux/kernel/git/stable/linux.git/commit/?id=6b7021ed36dabf29e56842e3408781cd3b82ef6e"
+    ],
+    "extended_references": [
+      {
+        "type": "commit",
+        "value": "6fb003e5ae18d8cda4c8a1175d9dd8db12bec049",
+        "note": "introduced"
+      },
+      {
+        "type": "commit",
+        "value": "6b7021ed36dabf29e56842e3408781cd3b82ef6e",
+        "note": "fixed"
+      }
+    ],
+    "reporter": "joshbressers",
+    "reporter_id": 1692786,
+    "notes": "",
+    "description": "net/nfc: fix use-after-free llcp_sock_bind/connect\n\nThis is an automated ID intended to aid in discovery of potential security vulnerabilities. The actual impact and attack plausibility have not yet been proven.\nThis ID is fixed in Linux Kernel version v5.10.37 by commit 6b7021ed36dabf29e56842e3408781cd3b82ef6e, it was introduced in version v5.10.30 by commit 6fb003e5ae18d8cda4c8a1175d9dd8db12bec049. For more details please see the references link."
+  },
+  "data_type": "CVE",
+  "data_format": "MITRE",
+  "data_version": "4.0",
+  "CVE_data_meta": {
+    "ASSIGNER": "dwf",
+    "ID": "UVI-2021-1000403",
+    "STATE": "PUBLIC"
+  },
+  "affects": {
+    "vendor": {
+      "vendor_data": [
+        {
+          "vendor_name": "Linux",
+          "product": {
+            "product_data": [
+              {
+                "product_name": "Kernel",
+                "version": {
+                  "version_data": [
+                    {
+                      "version_value": "versions from v5.10.30 to before v5.10.37"
+                    }
+                  ]
+                }
+              }
+            ]
+          }
+        }
+      ]
+    }
+  },
+  "problemtype": {
+    "problemtype_data": [
+      {
+        "description": [
+          {
+            "lang": "eng",
+            "value": "unspecified"
+          }
+        ]
+      }
+    ]
+  },
+  "references": {
+    "reference_data": [
+      {
+        "url": "https://git.kernel.org/pub/scm/linux/kernel/git/stable/linux.git/commit/?id=6fb003e5ae18d8cda4c8a1175d9dd8db12bec049",
+        "refsource": "MISC",
+        "name": "https://git.kernel.org/pub/scm/linux/kernel/git/stable/linux.git/commit/?id=6fb003e5ae18d8cda4c8a1175d9dd8db12bec049"
+      },
+      {
+        "url": "https://git.kernel.org/pub/scm/linux/kernel/git/stable/linux.git/commit/?id=6b7021ed36dabf29e56842e3408781cd3b82ef6e",
+        "refsource": "MISC",
+        "name": "https://git.kernel.org/pub/scm/linux/kernel/git/stable/linux.git/commit/?id=6b7021ed36dabf29e56842e3408781cd3b82ef6e"
+      }
+    ]
+  },
+  "description": {
+    "description_data": [
+      {
+        "lang": "eng",
+        "value": "net/nfc: fix use-after-free llcp_sock_bind/connect\n\nThis is an automated ID intended to aid in discovery of potential security vulnerabilities. The actual impact and attack plausibility have not yet been proven.\nThis ID is fixed in Linux Kernel version v5.10.37 by commit 6b7021ed36dabf29e56842e3408781cd3b82ef6e, it was introduced in version v5.10.30 by commit 6fb003e5ae18d8cda4c8a1175d9dd8db12bec049. For more details please see the references link."
+      }
+    ]
+  },
+  "OSV": {
+    "id": "UVI-2021-1000403",
+    "summary": "net/nfc: fix use-after-free llcp_sock_bind/connect",
+    "package": {
+      "name": "Kernel",
+      "ecosystem": "Linux"
+    },
+    "affects": {
+      "ranges": [
+        {
+          "type": "GIT",
+          "repo": "https://git.kernel.org/pub/scm/linux/kernel/git/stable/linux.git/",
+          "introduced": "6fb003e5ae18d8cda4c8a1175d9dd8db12bec049",
+          "fixed": "6b7021ed36dabf29e56842e3408781cd3b82ef6e"
+        }
+      ]
+    },
+    "modified": "2021-06-04T01:27:09.575804Z",
+    "published": "2021-05-31T15:39:45.041586Z",
+    "details": "net/nfc: fix use-after-free llcp_sock_bind/connect\n\nThis is an automated ID intended to aid in discovery of potential security vulnerabilities. The actual impact and attack plausibility have not yet been proven.\nThis ID is fixed in Linux Kernel version v5.10.37 by commit 6b7021ed36dabf29e56842e3408781cd3b82ef6e, it was introduced in version v5.10.30 by commit 6fb003e5ae18d8cda4c8a1175d9dd8db12bec049. For more details please see the references link."
+  }
+}

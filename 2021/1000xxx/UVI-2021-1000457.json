@@ -1,0 +1,118 @@
+{
+  "dwf": {
+    "vendor_name": "Linux",
+    "product_name": "Kernel",
+    "product_version": "versions from v4.19.163 to before v4.19.191",
+    "vulnerability_type": "unspecified",
+    "affected_component": "unspecified",
+    "attack_vector": "unspecified",
+    "impact": "unspecified",
+    "credit": "",
+    "references": [
+      "https://git.kernel.org/pub/scm/linux/kernel/git/stable/linux.git/commit/?id=234b432c7b6184b2d6c5ba2c55f0dd5023c0edf0",
+      "https://git.kernel.org/pub/scm/linux/kernel/git/stable/linux.git/commit/?id=28a5529068c51cdf0295ab1e11a99a3a909a03e4"
+    ],
+    "extended_references": [
+      {
+        "type": "commit",
+        "value": "234b432c7b6184b2d6c5ba2c55f0dd5023c0edf0",
+        "note": "introduced"
+      },
+      {
+        "type": "commit",
+        "value": "28a5529068c51cdf0295ab1e11a99a3a909a03e4",
+        "note": "fixed"
+      }
+    ],
+    "reporter": "joshbressers",
+    "reporter_id": 1692786,
+    "notes": "",
+    "description": "spi: Fix use-after-free with devm_spi_alloc_*\n\nThis is an automated ID intended to aid in discovery of potential security vulnerabilities. The actual impact and attack plausibility have not yet been proven.\nThis ID is fixed in Linux Kernel version v4.19.191 by commit 28a5529068c51cdf0295ab1e11a99a3a909a03e4, it was introduced in version v4.19.163 by commit 234b432c7b6184b2d6c5ba2c55f0dd5023c0edf0. For more details please see the references link."
+  },
+  "data_type": "CVE",
+  "data_format": "MITRE",
+  "data_version": "4.0",
+  "CVE_data_meta": {
+    "ASSIGNER": "dwf",
+    "ID": "UVI-2021-1000457",
+    "STATE": "PUBLIC"
+  },
+  "affects": {
+    "vendor": {
+      "vendor_data": [
+        {
+          "vendor_name": "Linux",
+          "product": {
+            "product_data": [
+              {
+                "product_name": "Kernel",
+                "version": {
+                  "version_data": [
+                    {
+                      "version_value": "versions from v4.19.163 to before v4.19.191"
+                    }
+                  ]
+                }
+              }
+            ]
+          }
+        }
+      ]
+    }
+  },
+  "problemtype": {
+    "problemtype_data": [
+      {
+        "description": [
+          {
+            "lang": "eng",
+            "value": "unspecified"
+          }
+        ]
+      }
+    ]
+  },
+  "references": {
+    "reference_data": [
+      {
+        "url": "https://git.kernel.org/pub/scm/linux/kernel/git/stable/linux.git/commit/?id=234b432c7b6184b2d6c5ba2c55f0dd5023c0edf0",
+        "refsource": "MISC",
+        "name": "https://git.kernel.org/pub/scm/linux/kernel/git/stable/linux.git/commit/?id=234b432c7b6184b2d6c5ba2c55f0dd5023c0edf0"
+      },
+      {
+        "url": "https://git.kernel.org/pub/scm/linux/kernel/git/stable/linux.git/commit/?id=28a5529068c51cdf0295ab1e11a99a3a909a03e4",
+        "refsource": "MISC",
+        "name": "https://git.kernel.org/pub/scm/linux/kernel/git/stable/linux.git/commit/?id=28a5529068c51cdf0295ab1e11a99a3a909a03e4"
+      }
+    ]
+  },
+  "description": {
+    "description_data": [
+      {
+        "lang": "eng",
+        "value": "spi: Fix use-after-free with devm_spi_alloc_*\n\nThis is an automated ID intended to aid in discovery of potential security vulnerabilities. The actual impact and attack plausibility have not yet been proven.\nThis ID is fixed in Linux Kernel version v4.19.191 by commit 28a5529068c51cdf0295ab1e11a99a3a909a03e4, it was introduced in version v4.19.163 by commit 234b432c7b6184b2d6c5ba2c55f0dd5023c0edf0. For more details please see the references link."
+      }
+    ]
+  },
+  "OSV": {
+    "id": "UVI-2021-1000457",
+    "summary": "spi: Fix use-after-free with devm_spi_alloc_*",
+    "package": {
+      "name": "Kernel",
+      "ecosystem": "Linux"
+    },
+    "affects": {
+      "ranges": [
+        {
+          "type": "GIT",
+          "repo": "https://git.kernel.org/pub/scm/linux/kernel/git/stable/linux.git/",
+          "introduced": "234b432c7b6184b2d6c5ba2c55f0dd5023c0edf0",
+          "fixed": "28a5529068c51cdf0295ab1e11a99a3a909a03e4"
+        }
+      ]
+    },
+    "modified": "2021-06-04T01:27:10.362832Z",
+    "published": "2021-05-31T15:39:45.041586Z",
+    "details": "spi: Fix use-after-free with devm_spi_alloc_*\n\nThis is an automated ID intended to aid in discovery of potential security vulnerabilities. The actual impact and attack plausibility have not yet been proven.\nThis ID is fixed in Linux Kernel version v4.19.191 by commit 28a5529068c51cdf0295ab1e11a99a3a909a03e4, it was introduced in version v4.19.163 by commit 234b432c7b6184b2d6c5ba2c55f0dd5023c0edf0. For more details please see the references link."
+  }
+}

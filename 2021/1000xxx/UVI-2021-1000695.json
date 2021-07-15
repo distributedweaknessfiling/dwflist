@@ -1,0 +1,118 @@
+{
+  "dwf": {
+    "vendor_name": "Linux",
+    "product_name": "Kernel",
+    "product_version": "versions from v2.6.34 to before v4.9.271",
+    "vulnerability_type": "unspecified",
+    "affected_component": "unspecified",
+    "attack_vector": "unspecified",
+    "impact": "unspecified",
+    "credit": "",
+    "references": [
+      "https://git.kernel.org/pub/scm/linux/kernel/git/stable/linux.git/commit/?id=d0cad871703b898a442e4049c532ec39168e5b57",
+      "https://git.kernel.org/pub/scm/linux/kernel/git/stable/linux.git/commit/?id=22c840596af0c09068b6cf948616e6496e59e07f"
+    ],
+    "extended_references": [
+      {
+        "type": "commit",
+        "value": "d0cad871703b898a442e4049c532ec39168e5b57",
+        "note": "introduced"
+      },
+      {
+        "type": "commit",
+        "value": "22c840596af0c09068b6cf948616e6496e59e07f",
+        "note": "fixed"
+      }
+    ],
+    "reporter": "joshbressers",
+    "reporter_id": 1692786,
+    "notes": "",
+    "description": "net: usb: fix memory leak in smsc75xx_bind\n\nThis is an automated ID intended to aid in discovery of potential security vulnerabilities. The actual impact and attack plausibility have not yet been proven.\nThis ID is fixed in Linux Kernel version v4.9.271 by commit 22c840596af0c09068b6cf948616e6496e59e07f, it was introduced in version v2.6.34 by commit d0cad871703b898a442e4049c532ec39168e5b57. For more details please see the references link."
+  },
+  "data_type": "CVE",
+  "data_format": "MITRE",
+  "data_version": "4.0",
+  "CVE_data_meta": {
+    "ASSIGNER": "dwf",
+    "ID": "UVI-2021-1000695",
+    "STATE": "PUBLIC"
+  },
+  "affects": {
+    "vendor": {
+      "vendor_data": [
+        {
+          "vendor_name": "Linux",
+          "product": {
+            "product_data": [
+              {
+                "product_name": "Kernel",
+                "version": {
+                  "version_data": [
+                    {
+                      "version_value": "versions from v2.6.34 to before v4.9.271"
+                    }
+                  ]
+                }
+              }
+            ]
+          }
+        }
+      ]
+    }
+  },
+  "problemtype": {
+    "problemtype_data": [
+      {
+        "description": [
+          {
+            "lang": "eng",
+            "value": "unspecified"
+          }
+        ]
+      }
+    ]
+  },
+  "references": {
+    "reference_data": [
+      {
+        "url": "https://git.kernel.org/pub/scm/linux/kernel/git/stable/linux.git/commit/?id=d0cad871703b898a442e4049c532ec39168e5b57",
+        "refsource": "MISC",
+        "name": "https://git.kernel.org/pub/scm/linux/kernel/git/stable/linux.git/commit/?id=d0cad871703b898a442e4049c532ec39168e5b57"
+      },
+      {
+        "url": "https://git.kernel.org/pub/scm/linux/kernel/git/stable/linux.git/commit/?id=22c840596af0c09068b6cf948616e6496e59e07f",
+        "refsource": "MISC",
+        "name": "https://git.kernel.org/pub/scm/linux/kernel/git/stable/linux.git/commit/?id=22c840596af0c09068b6cf948616e6496e59e07f"
+      }
+    ]
+  },
+  "description": {
+    "description_data": [
+      {
+        "lang": "eng",
+        "value": "net: usb: fix memory leak in smsc75xx_bind\n\nThis is an automated ID intended to aid in discovery of potential security vulnerabilities. The actual impact and attack plausibility have not yet been proven.\nThis ID is fixed in Linux Kernel version v4.9.271 by commit 22c840596af0c09068b6cf948616e6496e59e07f, it was introduced in version v2.6.34 by commit d0cad871703b898a442e4049c532ec39168e5b57. For more details please see the references link."
+      }
+    ]
+  },
+  "OSV": {
+    "id": "UVI-2021-1000695",
+    "summary": "net: usb: fix memory leak in smsc75xx_bind",
+    "details": "net: usb: fix memory leak in smsc75xx_bind\n\nThis is an automated ID intended to aid in discovery of potential security vulnerabilities. The actual impact and attack plausibility have not yet been proven.\nThis ID is fixed in Linux Kernel version v4.9.271 by commit 22c840596af0c09068b6cf948616e6496e59e07f, it was introduced in version v2.6.34 by commit d0cad871703b898a442e4049c532ec39168e5b57. For more details please see the references link.",
+    "package": {
+      "name": "Kernel",
+      "ecosystem": "Linux"
+    },
+    "affects": {
+      "ranges": [
+        {
+          "type": "GIT",
+          "repo": "https://git.kernel.org/pub/scm/linux/kernel/git/stable/linux.git/",
+          "introduced": "d0cad871703b898a442e4049c532ec39168e5b57",
+          "fixed": "22c840596af0c09068b6cf948616e6496e59e07f"
+        }
+      ]
+    },
+    "modified": "2021-06-04T20:04:07.734215Z",
+    "published": "2021-06-04T20:04:07.734215Z"
+  }
+}

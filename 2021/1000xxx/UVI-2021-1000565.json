@@ -1,0 +1,118 @@
+{
+  "dwf": {
+    "vendor_name": "Linux",
+    "product_name": "Kernel",
+    "product_version": "versions from v5.7 to before v5.12.9",
+    "vulnerability_type": "unspecified",
+    "affected_component": "unspecified",
+    "attack_vector": "unspecified",
+    "impact": "unspecified",
+    "credit": "",
+    "references": [
+      "https://git.kernel.org/pub/scm/linux/kernel/git/stable/linux.git/commit/?id=7400b063969bdca4a06cd97f1294d765c8eecbe1",
+      "https://git.kernel.org/pub/scm/linux/kernel/git/stable/linux.git/commit/?id=727a2b4fc951ee69847d4904d98961856ea9fbe6"
+    ],
+    "extended_references": [
+      {
+        "type": "commit",
+        "value": "7400b063969bdca4a06cd97f1294d765c8eecbe1",
+        "note": "introduced"
+      },
+      {
+        "type": "commit",
+        "value": "727a2b4fc951ee69847d4904d98961856ea9fbe6",
+        "note": "fixed"
+      }
+    ],
+    "reporter": "joshbressers",
+    "reporter_id": 1692786,
+    "notes": "",
+    "description": "netfilter: nft_set_pipapo_avx2: Add irq_fpu_usable() check, fallback to non-AVX2 version\n\nThis is an automated ID intended to aid in discovery of potential security vulnerabilities. The actual impact and attack plausibility have not yet been proven.\nThis ID is fixed in Linux Kernel version v5.12.9 by commit 727a2b4fc951ee69847d4904d98961856ea9fbe6, it was introduced in version v5.7 by commit 7400b063969bdca4a06cd97f1294d765c8eecbe1. For more details please see the references link."
+  },
+  "data_type": "CVE",
+  "data_format": "MITRE",
+  "data_version": "4.0",
+  "CVE_data_meta": {
+    "ASSIGNER": "dwf",
+    "ID": "UVI-2021-1000565",
+    "STATE": "PUBLIC"
+  },
+  "affects": {
+    "vendor": {
+      "vendor_data": [
+        {
+          "vendor_name": "Linux",
+          "product": {
+            "product_data": [
+              {
+                "product_name": "Kernel",
+                "version": {
+                  "version_data": [
+                    {
+                      "version_value": "versions from v5.7 to before v5.12.9"
+                    }
+                  ]
+                }
+              }
+            ]
+          }
+        }
+      ]
+    }
+  },
+  "problemtype": {
+    "problemtype_data": [
+      {
+        "description": [
+          {
+            "lang": "eng",
+            "value": "unspecified"
+          }
+        ]
+      }
+    ]
+  },
+  "references": {
+    "reference_data": [
+      {
+        "url": "https://git.kernel.org/pub/scm/linux/kernel/git/stable/linux.git/commit/?id=7400b063969bdca4a06cd97f1294d765c8eecbe1",
+        "refsource": "MISC",
+        "name": "https://git.kernel.org/pub/scm/linux/kernel/git/stable/linux.git/commit/?id=7400b063969bdca4a06cd97f1294d765c8eecbe1"
+      },
+      {
+        "url": "https://git.kernel.org/pub/scm/linux/kernel/git/stable/linux.git/commit/?id=727a2b4fc951ee69847d4904d98961856ea9fbe6",
+        "refsource": "MISC",
+        "name": "https://git.kernel.org/pub/scm/linux/kernel/git/stable/linux.git/commit/?id=727a2b4fc951ee69847d4904d98961856ea9fbe6"
+      }
+    ]
+  },
+  "description": {
+    "description_data": [
+      {
+        "lang": "eng",
+        "value": "netfilter: nft_set_pipapo_avx2: Add irq_fpu_usable() check, fallback to non-AVX2 version\n\nThis is an automated ID intended to aid in discovery of potential security vulnerabilities. The actual impact and attack plausibility have not yet been proven.\nThis ID is fixed in Linux Kernel version v5.12.9 by commit 727a2b4fc951ee69847d4904d98961856ea9fbe6, it was introduced in version v5.7 by commit 7400b063969bdca4a06cd97f1294d765c8eecbe1. For more details please see the references link."
+      }
+    ]
+  },
+  "OSV": {
+    "id": "UVI-2021-1000565",
+    "summary": "netfilter: nft_set_pipapo_avx2: Add irq_fpu_usable() check, fallback to non-AVX2 version",
+    "details": "netfilter: nft_set_pipapo_avx2: Add irq_fpu_usable() check, fallback to non-AVX2 version\n\nThis is an automated ID intended to aid in discovery of potential security vulnerabilities. The actual impact and attack plausibility have not yet been proven.\nThis ID is fixed in Linux Kernel version v5.12.9 by commit 727a2b4fc951ee69847d4904d98961856ea9fbe6, it was introduced in version v5.7 by commit 7400b063969bdca4a06cd97f1294d765c8eecbe1. For more details please see the references link.",
+    "package": {
+      "name": "Kernel",
+      "ecosystem": "Linux"
+    },
+    "affects": {
+      "ranges": [
+        {
+          "type": "GIT",
+          "repo": "https://git.kernel.org/pub/scm/linux/kernel/git/stable/linux.git/",
+          "introduced": "7400b063969bdca4a06cd97f1294d765c8eecbe1",
+          "fixed": "727a2b4fc951ee69847d4904d98961856ea9fbe6"
+        }
+      ]
+    },
+    "modified": "2021-06-04T19:40:04.763239Z",
+    "published": "2021-06-04T19:40:04.763239Z"
+  }
+}

@@ -1,0 +1,121 @@
+{
+  "dwf": {
+    "vendor_name": "Hyperledger",
+    "product_name": "fabric-samples",
+    "product_version": "Prior to commit 6bccc138887b3dbd9dc920bad200068b11066ef7",
+    "vulnerability_type": "temporary file creation (CWE-379)",
+    "affected_component": "digibank.sh and magnetocorp.sh",
+    "attack_vector": "Local",
+    "impact": "Information disclosure of all environmental variables",
+    "credit": "kurt@seifried.org",
+    "references": [
+      "https://github.com/hyperledger/fabric-samples/pull/440",
+      "https://github.com/hyperledger/fabric-samples/pull/434",
+      "https://hackerone.com/bugs?report_id=1124005&subject=user"
+    ],
+    "reporter": "kurtseifried",
+    "reporter_id": 582211,
+    "notes": "",
+    "description": "In Hyperledger fabric-samples version Prior to commit 6bccc138887b3dbd9dc920bad200068b11066ef7 a temporary file creation (CWE-379) exists in the digibank.sh and magnetocorp.sh that can be attacked via Local resulting in Information disclosure of all environmental variables"
+  },
+  "data_type": "CVE",
+  "data_format": "MITRE",
+  "data_version": "4.0",
+  "CVE_data_meta": {
+    "ASSIGNER": "dwf",
+    "ID": "UVI-2021-1000010",
+    "STATE": "PUBLIC"
+  },
+  "affects": {
+    "vendor": {
+      "vendor_data": [
+        {
+          "vendor_name": "Hyperledger",
+          "product": {
+            "product_data": [
+              {
+                "product_name": "fabric-samples",
+                "version": {
+                  "version_data": [
+                    {
+                      "version_value": "Prior to commit 6bccc138887b3dbd9dc920bad200068b11066ef7"
+                    }
+                  ]
+                }
+              }
+            ]
+          }
+        }
+      ]
+    }
+  },
+  "problemtype": {
+    "problemtype_data": [
+      {
+        "description": [
+          {
+            "lang": "eng",
+            "value": "temporary file creation (CWE-379)"
+          }
+        ]
+      }
+    ]
+  },
+  "references": {
+    "reference_data": [
+      {
+        "url": "https://github.com/hyperledger/fabric-samples/pull/440",
+        "refsource": "MISC",
+        "name": "https://github.com/hyperledger/fabric-samples/pull/440"
+      },
+      {
+        "url": "https://github.com/hyperledger/fabric-samples/pull/434",
+        "refsource": "MISC",
+        "name": "https://github.com/hyperledger/fabric-samples/pull/434"
+      },
+      {
+        "url": "https://hackerone.com/bugs?report_id=1124005&subject=user",
+        "refsource": "MISC",
+        "name": "https://hackerone.com/bugs?report_id=1124005&subject=user"
+      }
+    ]
+  },
+  "description": {
+    "description_data": [
+      {
+        "lang": "eng",
+        "value": "In Hyperledger fabric-samples version Prior to commit 6bccc138887b3dbd9dc920bad200068b11066ef7 a temporary file creation (CWE-379) exists in the digibank.sh and magnetocorp.sh that can be attacked via Local resulting in Information disclosure of all environmental variables"
+      }
+    ]
+  },
+  "OSV": {
+    "id": "UVI-2021-1000010",
+    "summary": "temporary file creation (CWE-379) in fabric-samples version Prior to commit 6bccc138887b3dbd9dc920bad200068b11066ef7",
+    "package": {
+      "name": "fabric-samples",
+      "ecosystem": "DWF"
+    },
+    "affects": {
+      "versions": [
+        "Prior to commit 6bccc138887b3dbd9dc920bad200068b11066ef7"
+      ]
+    },
+    "references": [
+      {
+        "type": "WEB",
+        "url": "https://github.com/hyperledger/fabric-samples/pull/440"
+      },
+      {
+        "type": "WEB",
+        "url": "https://github.com/hyperledger/fabric-samples/pull/434"
+      },
+      {
+        "type": "WEB",
+        "url": "https://hackerone.com/bugs?report_id=1124005&subject=user"
+      }
+    ],
+    "modified": "2021-06-04T01:27:12.406222Z",
+    "published": "2021-05-31T15:39:45.031586Z",
+    "details": "In Hyperledger fabric-samples version Prior to commit 6bccc138887b3dbd9dc920bad200068b11066ef7 a temporary file creation (CWE-379) exists in the digibank.sh and magnetocorp.sh that can be attacked via Local resulting in Information disclosure of all environmental variables"
+  }
+}
